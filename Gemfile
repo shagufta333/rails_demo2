@@ -8,6 +8,7 @@ gem "puma", "~> 5.0"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem  'rack-cors',  require: 'rack/cors'
+gem 'devise', '~> 3.5.1'
 
 group :development, :test do
   
